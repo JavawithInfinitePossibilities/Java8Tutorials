@@ -1,0 +1,7 @@
+A stream has no concept of an index of the read or writes data, like an array does. 
+Nor can you typically move forth and back in a stream, like you can in an array, or in a file using RandomAccessFile. 
+A stream is just a continuous flow of data. Java IO streams are typically either byte based or character based. 
+The streams that are byte based are typically called something with "stream", like InputStream or OutputStream. 
+These streams read and write a raw byte at a time, with the exception of the DataInputStream and DataOutputStream which can also read and write int, long, float and double values. 
+The streams that are character based are typically called something with "Reader" or "Writer". 
+The character based streams can read / write characters (like Latin1 or UNICODE characters).
