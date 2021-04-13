@@ -19,6 +19,7 @@ public class JavaCollectionLinkedListExample {
 		List<Integer> list = new LinkedList<Integer>();
 		doTimeing("LinkedList", list);
 		System.out.println(list.size());
+		/*This will add a new element in the given position. Rest of the element will be push back.*/
 		list.add(1500, 12);
 		System.out.println("Value at 1500th position: " + list.get(1500));
 		System.out.println("After adding a element in 1500 the size :" + list.size());
