@@ -88,7 +88,6 @@ public class MergeSort {
 				nums[k] = tempArray[j];
 				j++;
 			}
-
 			k++;
 		}
 
