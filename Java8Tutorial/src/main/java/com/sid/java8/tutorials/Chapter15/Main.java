@@ -17,11 +17,11 @@ public class Main {
 		String s1 = "Siddhant";
 		String s2 = "Siddhant";
 		String s3 = new String(s2);
-		System.out.println((s1 == s2) ? true : false);//true
-		System.out.println((s1 == s3) ? true : false);//false
-		System.out.println((s2 == s3) ? true : false);//false
+		System.out.println((s1 == s2) ? true : false);// true
+		System.out.println((s1 == s3) ? true : false);// false
+		System.out.println((s2 == s3) ? true : false);// false
 		s3 = s3.intern();
-		System.out.println((s2 == s3) ? true : false); //true
+		System.out.println((s2 == s3) ? true : false); // true
 		Thread thread = new Thread(EmunExtendesThread.ONE);
 		thread.start();
 		ASimpleClass aSimpleClass = new ASimpleClass(1, "Sid");
@@ -31,6 +31,15 @@ public class Main {
 		if (aSimpleClass.equals(simpleClass)) {
 			System.out.println("Yes");
 		}
+		Main main = new Main();
+		String name = "Siddhant";
+		main.myMethiod(name);
+		System.out.println("Name : " + name);
 	}
 
+	public void myMethiod(String myVariable) {
+		myVariable = myVariable.concat("-Sahu");
+		System.out.println("My Variable : " + myVariable);
+		myVariable = new String("Welcome");
+	}
 }
