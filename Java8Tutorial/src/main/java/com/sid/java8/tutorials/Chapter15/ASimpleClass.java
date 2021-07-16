@@ -5,8 +5,9 @@ package com.sid.java8.tutorials.Chapter15;
 
 /**
  * @author Lenovo <br/>
- *         1. If two object has same hash-code then both the object are equal <br/>
- *         2. If two object are equal then they may or mayn't be have same hash-code.
+ *         1. If two object has same hash-code then both the object may or
+ *         mayn't be equal <br/>
+ *         2. If two object are equal then they have same hash-code.
  *
  */
 public class ASimpleClass {
