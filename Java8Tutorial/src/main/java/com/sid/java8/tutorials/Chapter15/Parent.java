@@ -15,18 +15,18 @@ public class Parent {
 	}
 
 	static {
-		System.out.println("Parent Static block");
+		System.out.println("1. Parent Static block");
 	}
 
 	{
-		System.out.println("Parent Instance block");
+		System.out.println("3. Parent Instance block");
 	}
 
 	/**
 	 * 
 	 */
 	public Parent() {
-		System.out.println("Parent Constractor");
+		System.out.println("4. Parent Constractor");
 	}
 
 }

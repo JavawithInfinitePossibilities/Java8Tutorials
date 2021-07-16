@@ -15,18 +15,18 @@ public class Child extends Parent {
 	}
 
 	static {
-		System.out.println("child Static block");
+		System.out.println("2. child Static block");
 	}
 
 	{
-		System.out.println("child Instance block");
+		System.out.println("5. child Instance block");
 	}
 
 	/**
 	 * 
 	 */
 	public Child() {
-		System.out.println("Child Constractor...");
+		System.out.println("6. Child Constractor...");
 	}
 
 }
