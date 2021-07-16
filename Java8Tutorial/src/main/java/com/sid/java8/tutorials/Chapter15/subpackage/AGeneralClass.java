@@ -4,8 +4,8 @@
 package com.sid.java8.tutorials.Chapter15.subpackage;
 
 /**
- * @author Lenovo
- *
+ * @author Lenovo <br/>
+ *         A default method only be declared inside the interface.
  */
 public class AGeneralClass {
 
