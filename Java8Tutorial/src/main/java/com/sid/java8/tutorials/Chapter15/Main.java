@@ -35,6 +35,9 @@ public class Main {
 		String name = "Siddhant";
 		main.myMethiod(name);
 		System.out.println("Name : " + name);
+		
+		OverloadParentClass overloadParentClass=new OverrideChildClass();
+		overloadParentClass.payment(123456789);
 	}
 
 	public void myMethiod(String myVariable) {
